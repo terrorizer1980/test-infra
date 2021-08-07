@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-FROM alpine:latest
+FROM alpine:3
 
 ARG IMAGE_ARG
 ENV IMAGE=${IMAGE_ARG}
